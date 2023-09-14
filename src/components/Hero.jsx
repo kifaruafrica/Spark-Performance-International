@@ -42,7 +42,7 @@ const Hero = () => {
 
       <style jsx>{`
         .mySwiper {
-          height: 90vh; 
+          height: 100vh; 
         }
 
         /* Responsive adjustments */

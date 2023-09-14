@@ -126,7 +126,7 @@ Spark Performance International
 </div>
                 
                     </div>
-        <div className="md:hidden  z-30 text-slate-600 block"
+        <div className="md:hidden  z-30 text-slate-600  flex justify-between"
             onClick={() => setsidebar(!sidebar)} 
             >
             {" "}
@@ -134,11 +134,14 @@ Spark Performance International
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth="1.5"
-                stroke="currentColor" className="w-14 h-14">
+                stroke="currentColor" className="w-10 h-10 m-4">
                 <path strokeLinecap="round"
                     strokeLinejoin="round"
                     d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-</svg>
+                        </svg>
+                        <img
+                            className='text-slate-900'
+                            src="" alt="" />
 
     </div>
 
@@ -234,7 +237,7 @@ Spark Performance International
                             <Link
                             onClick={() => setsidebar(!sidebar)}
                 activeClass="active"
-                to="Contact us"
+                to="contact"
                 spy={true}
                 smooth={true}
                 offset={-10}
