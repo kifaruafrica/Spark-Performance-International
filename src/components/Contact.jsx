@@ -47,7 +47,7 @@
                     ></textarea>
                 </div>
                 <div>
-                    <button className="bg-ourYellow rounded px-12 py-3 text-white">
+                    <button className="bg-blue-600 hover:bg-blue-900 rounded px-12 py-4 text-white w-full">
                     Submit
                     </button>
                 </div>
