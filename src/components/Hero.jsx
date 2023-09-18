@@ -34,7 +34,7 @@ const Hero = () => {
             <img src={image1} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={image2} alt="" />
+            <img src={image1} alt="" />
           </SwiperSlide>
         </Swiper>
       
